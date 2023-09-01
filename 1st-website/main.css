@@ -1,0 +1,26 @@
+ body {
+    background-color: rgba(155, 200, 40, 1);
+    margin: 20px;
+    font-size: 20px;
+ }
+ 
+ p {
+    color: rgba(109, 103,107, 0.5); 
+    background-color: darkkhaki;
+    padding: 30px;
+    margin: 30px;
+ }
+ 
+ li {
+     color: pink;
+ }
+
+ ol {
+    background-color: aquamarine;
+ }
+
+.introduction {
+    background-color: darkolivegreen;
+    border: 60px dotted lightblue;
+}
+
