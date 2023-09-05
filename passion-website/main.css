@@ -1,0 +1,13 @@
+details {
+    text-align: center;
+}
+button{
+    appearance: icon;
+    color: green;
+    background-color: beige;
+    border-style: dotted;
+    border-color: green;
+}
+button:hover {
+    border-style:solid
+}

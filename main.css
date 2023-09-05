@@ -1,3 +1,40 @@
 body {
-    background-color: #b9d0d1
+    background-color: #fff4e8;
+}
+
+p{
+   font-family: monospace;
+   color: rgb(103, 126, 178);
+   margin-left: 300px;
+   margin-right: 300px;
+}
+
+a {
+    color: rgb(68, 116, 20);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(117, 184, 72);
+}
+
+ul{
+    text-align: center;
+    font-family: monospace;
+    margin-left: -50px;
+    margin-top: 100px;
+}
+
+h3{
+    text-align: center;
+    font-family: monospace;
+    color: rgb(103, 126, 178)
+}
+
+h4{
+    font-family: monospace;
+    color: rgb(103, 126, 178);
+    text-decoration: underline;
+    margin-left: 150px;
+    margin-right: 150px;
 }
