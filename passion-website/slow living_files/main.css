@@ -1,0 +1,74 @@
+details {
+    font-family:cursive;
+    color: rgb(66, 43, 17);
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    appearance: icon;
+    color: rgb(66, 43, 17);
+    border-style: dotted;
+    border-color: rgb(66, 43, 17);
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 75px;
+    font-size: 20px;
+    /* font-family: ; */
+}
+button:hover {
+    border-style:solid;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family:cursive;
+    color: rgb(66, 43, 17);
+    font-size: 40px
+}
+
+a {
+    font-family: monospace;
+    color: rgb(66, 43, 17);
+    font-size: 20px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.blueberry{
+    background-color: rgb(144, 144, 255);
+}
+
+.strawberry{
+    background-color: rgb(234, 136, 136);
+}
+
+.apricot{
+    background-color: rgb(234, 200, 136)
+}
+
+.socks{
+    background-color: rgb(133, 91, 49)
+}
+
+.jeans{
+    background-color: rgb(75, 86, 129)
+}
+
+.houseicon{
+    width: 32px;
+    box-align: center;
+}
+
+.placemat {
+    background-color: rgb(107, 127, 177);
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}   
