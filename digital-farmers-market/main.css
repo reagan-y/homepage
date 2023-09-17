@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    cursor: url(walking.png), auto;
+}
+
+.main-container{
+    background-color:rgb(245, 241, 220);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.stand {
+    border: solid olive;
+    width: 320px;
+    height: 220px;
+    display: flex;
+    gap:5px;
+    padding:5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.apple{
+    border: 2px dotted red;
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peach{
+    border: 2px dotted rgb(241, 134, 87);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lettuce{
+    border: 2px dotted rgb(1, 113, 22);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrot{
+    border: 2px dotted rgb(255, 128, 0);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onion{
+    border: 2px dotted rgb(255, 208, 121);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eggplant{
+    border: 2px dotted rgb(85, 0, 102);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bread{
+    border: 2px dotted rgb(207, 154, 104);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baguette{
+    border: 2px dotted rgb(182, 120, 63);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    background-color:rgb(245, 241, 220);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: olive;
+    margin:0;
+    padding: 10px;
+}
+
+    
