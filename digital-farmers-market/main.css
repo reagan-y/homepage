@@ -7,20 +7,33 @@ body{
     cursor: url(walking.png), auto;
 }
 
+p{
+    text-align: center;
+    background-color:rgb(39, 55, 108);
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    margin:0;
+    padding: 10px;
+    position: sticky;
+    top:0;
+}
+
 .main-container{
-    background-color:rgb(245, 241, 220);
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
     width:100vw;
     height:100vh;
     display:flex;
-    gap: 10px;
+    gap: 70px;
     justify-content: center;
     flex-wrap: wrap;
     align-content: space-between;
 }
 
 .stand {
-    border: solid olive;
-    width: 320px;
+    border: solid rgb(39, 55, 108);
+    width: 300px;
     height: 220px;
     display: flex;
     gap:5px;
@@ -31,7 +44,7 @@ body{
 }
 
 .apple{
-    border: 2px dotted red;
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -42,7 +55,7 @@ body{
 }
 
 .peach{
-    border: 2px dotted rgb(241, 134, 87);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -53,7 +66,7 @@ body{
 }
 
 .lettuce{
-    border: 2px dotted rgb(1, 113, 22);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -64,7 +77,7 @@ body{
 }
 
 .carrot{
-    border: 2px dotted rgb(255, 128, 0);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -75,7 +88,7 @@ body{
 }
 
 .onion{
-    border: 2px dotted rgb(255, 208, 121);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -86,7 +99,7 @@ body{
 }
 
 .eggplant{
-    border: 2px dotted rgb(85, 0, 102);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -97,7 +110,7 @@ body{
 }
 
 .bread{
-    border: 2px dotted rgb(207, 154, 104);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
     font-size: 20px;
@@ -108,9 +121,229 @@ body{
 }
 
 .baguette{
-    border: 2px dotted rgb(182, 120, 63);
+    background-color: rgb(39, 55, 108);
     width: 30%;
     height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.croissant{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cupcake{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.egg{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheese{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butter{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beef{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bacon{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chicken{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouquet{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulip{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rose{
+    background-color: rgb(39, 55, 108);
+    width: 30%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunflower{
+    background-color: rgb(39, 55, 108);
+    width: 48%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinkflower{
+    background-color: rgb(39, 55, 108);
+    width: 48%;
+    height: 47%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soap{
+    background-color: rgb(39, 55, 108);
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candle{
+    background-color: rgb(39, 55, 108);
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lotion{
+    background-color: rgb(39, 55, 108);
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee{
+    background-color: rgb(39, 55, 108);
+    width: 100%;
+    height: 48%;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea{
+    background-color: rgb(39, 55, 108);
+    width: 100%;
+    height: 48%;
     font-size: 20px;
     
     display: flex;
@@ -122,14 +355,11 @@ a{
     text-decoration: none;
 }
 
-p{
-    text-align: center;
-    background-color:rgb(245, 241, 220);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: olive;
-    margin:0;
-    padding: 10px;
+a:hover{
+    border: solid rgb(39, 55, 108);
+    background-color: white;
 }
+
+
 
     
