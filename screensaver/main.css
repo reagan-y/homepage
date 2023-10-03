@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.container {
+    width:100vw;
+    height:100vh;
+    /* background-color: green; */
+    display: flex;
+    gap: 50px;
+}
+
+.mover1{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: pink; */
+    animation: move1 5s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+    top: 300px;
+}
+
+@keyframes move1{
+    0%{
+        transform: translateX(100vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover2{
+    width: 200px;
+    /* height: 500px; */
+    /* background-color: rgb(192, 236, 255); */
+    animation: move2 7s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move2{
+    0%{
+        transform: translateX(110vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover3{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move3 9s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move3{
+    0%{
+        transform: translateX(150vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover4{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move4 11s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move4{
+    0%{
+        transform: translateX(200vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover5{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move5 13s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move5{
+    0%{
+        transform: translateX(250vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover6{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move6 14s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move6{
+    0%{
+        transform: translateX(300vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover7{
+    width: 400px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move7 16s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move7{
+    0%{
+        transform: translateX(350vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover8{
+    width: 300px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move8 18s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move8{
+    0%{
+        transform: translateX(400vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover9{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move9 20s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move9{
+    0%{
+        transform: translateX(450vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+.mover10{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move10 20s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move10{
+    0%{
+        transform: translateX(500vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover11{
+    width: 400px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move11 20s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move11{
+    0%{
+        transform: translateX(550vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
