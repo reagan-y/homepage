@@ -12,6 +12,7 @@ body{
     /* background-color: green; */
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .mover1{
@@ -221,4 +222,25 @@ body{
     100%{
         transform: translateX(-500px)
     }
+}
+
+.buswindow{
+    width: 500px;
+    position: fixed;
+    top: 300px;
+    left: 300px;
+    background-color: white;
+}
+
+.buswindow:hover{
+    animation: buswindow 4s linear infinite;
+}
+
+@keyframes buswindow{
+ 0%{
+    transform: translateX(100vw)
+ }
+ 100%{
+    transform: translateX(-1000px)
+ }
 }
