@@ -209,7 +209,26 @@ body{
     width: 400px;
     /* height: 500px; */
     /* background-color: rgb(195, 255, 192); */
-    animation: move11 20s linear infinite;
+    animation: move11 19s linear infinite;
+    position: fixed;
+    margin: 50px;
+    border:2px red;
+}
+
+@keyframes move11{
+    0%{
+        transform: translateX(550vw)
+    }
+    100%{
+        transform: translateX(-500px)
+    }
+}
+
+.mover12{
+    width: 400px;
+    /* height: 500px; */
+    /* background-color: rgb(195, 255, 192); */
+    animation: move12 15s linear infinite;
     position: fixed;
     margin: 50px;
     border:2px red;
@@ -243,4 +262,18 @@ body{
  100%{
     transform: translateX(-1000px)
  }
+}
+
+.bag{
+    width:100px;
+    animation: bag 20s infinite ease-in-out;
+}
+
+@keyframes bag {
+    0%{
+        transform: translateX(-3000px)  rotate(0deg);
+    }
+    100%{
+        transform: translateX(100vw)  rotate(7000deg);
+    }
 }
