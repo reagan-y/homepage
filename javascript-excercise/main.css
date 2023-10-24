@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    transition: .5s;
+}
+
+.dark {
+    background-color: rgb(23, 75, 77);
+}
+
+.bg{
+    background-image: url("duck.jpeg");
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity:0;
+    transition:.5s;
+}
+
+.reveal{
+    opacity:100;
+}
+
+button {
+    background-color:rgb(255, 196, 196);
+    border: none;
+    padding: 5px;
+    color: white;
+    width:50px;
+    height:30px;
+    
+}
+
+button:hover{
+    background-color:red;
+}
+
+.sidebar {
+    padding: 20px;
+    background-color: rgb(149, 127, 0);
+    color: rgb(255, 196, 196);
+    font-size: 20px;
+    position: fixed;
+    top:0;
+    right:-250px;
+    height:100vh;
+    width: 250px;
+    text-align: center;
+    transition: .5s;
+}
+
+.active {
+    top:0;
+    right:0;
+    background-color: rgb(61, 52, 1);
+}
+
+.square {
+    height: 100px;
+    width:100px;
+    background-color:rgb(149, 127, 0);
+    position: fixed;
+    left: 30px;
+    bottom:30px;
+    transition:.5s;
+}
+
+.spin {
+    transform: rotate(-180deg);
+    background-color:rgb(61, 52, 1)
+}
