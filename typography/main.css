@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'savateregular';
+    src: url('savate-regular-webfont.woff2') format('woff2'),
+         url('savate-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:burlywood;
+}
+
+.defaults{
+    font-family:hbshajds, helvetica, monospace;
+
+}
+
+.google{
+    font-family: 'Source Code Pro', monospace;
+    font-weight:300;
+}
+
+.new-google{
+    font-family: 'Nosifer', sans-serif;
+}
+
+.squirrel{
+    font-family:savateregular, sans-serif;
+}
+
