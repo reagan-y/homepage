@@ -25,5 +25,5 @@ $(".reveal-btn").click(
 );
 
 $( function() {
-    $( ".draggable" ).draggable({snap:true});
+    $( ".draggable" ).draggable();
   } );
