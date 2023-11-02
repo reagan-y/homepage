@@ -288,8 +288,28 @@ body{
     transition: .5s;
   }
 
-  .popup1.active{
+  .popup1box{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top: 100px;
+    left:100px;
+    transition: .5s;
+    background-color:red;
+    z-index:0;
+    opacity:1;
+  }
+
+
+  .popped1{
     width:500px;
+    position:absolute;
+    top:100px;
+    /* display:none; */
+  }
+
+  .popped1.pop{
+    display:none;
   }
 
   .popup2{
